@@ -4,7 +4,7 @@
 # SPECIFICATION: middleman helper to provide functions that will directly
 # interface with mongoDB
 # FOR: CS 4250- Assignment #2
-# TIME SPENT: 4pm 10/3/2024
+# TIME SPENT: 6 hours
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with
