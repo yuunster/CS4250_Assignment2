@@ -88,14 +88,14 @@ def getIndex(col):
                     "term": "$terms.term",     #group by a unique combination of term + title
                     "title": "$title"
                 },
-                "count": {"$sum": "$terms.count"}
+                "count": {"$sum": "$terms.count"}   #even though there there are no duplicate terms in documents, $group requires fields to be accumulators. In this case, I used $sum
             }
         },
         {
             "$group": {
-                "_id": "$_id.term",
+                "_id": "$_id.term",     #group by term
                 "documents": {
-                    "$push": {
+                    "$push": {          #push each title:count pair into this list. note: multiple title:count pairs can be pushed here based on term grouping
                         "title": "$_id.title",
                         "count": "$count"
                     }
