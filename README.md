@@ -62,5 +62,3 @@ Console output:
     
     Enter a menu choice: d
     {'during': ['Exercise:1'], 'so': ['Arizona:1'], 'baseball': ['Exercise:1'], 'why': ['Arizona:1'], 'picnics': ['California:2'], 'the': ['California:1'], 'bad': ['Arizona:1'], 'is': ['Exercise:1', 'California:1', 'Arizona:2'], 'time': ['Arizona:1', 'California:2'], 'played': ['Exercise:1'], 'months': ['Exercise:1'], 'here': ['California:1', 'Arizona:1'], 'summer': ['Exercise:1', 'California:1', 'Arizona:1'], 'for': ['California:1'], 'a': ['Arizona:1'], 'this': ['Arizona:1'], 'hot': ['Arizona:1']}
-    
-    Enter a menu choice:
